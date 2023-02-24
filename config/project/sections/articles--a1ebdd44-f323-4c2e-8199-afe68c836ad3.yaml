@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: articles
+name: Articles
+propagationMethod: all
+siteSettings:
+  29f2de60-ede3-40d8-b625-a2d992c8f009: # blog
+    enabledByDefault: true
+    hasUrls: true
+    template: articles/_entry
+    uriFormat: 'articles/{slug}'
+type: channel

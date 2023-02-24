@@ -1,0 +1,27 @@
+columnSuffix: ogiaapgd
+contentColumnType: text
+fieldGroup: f7d108ef-d93f-46c6-86fa-5ab4f17fad23 # Common
+handle: textContent
+instructions: null
+name: 'Text Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
