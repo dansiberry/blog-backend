@@ -7,7 +7,7 @@ name: 'Text Content'
 searchable: false
 settings:
   availableTransforms: ''
-  availableVolumes: ''
+  availableVolumes: '*'
   columnType: text
   configSelectionMode: choose
   defaultTransform: ''

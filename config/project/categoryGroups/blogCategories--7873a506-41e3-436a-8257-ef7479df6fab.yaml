@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  196c0a44-e936-412a-ae3a-ac2092e58257:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 81535a2e-f051-4901-a134-c92729e7c943
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9671d2ba-5dfe-4a99-994e-3dfd96bfe562
+        userCondition: null
+handle: blogCategories
+name: 'Blog Categories'
+siteSettings:
+  29f2de60-ede3-40d8-b625-a2d992c8f009: # blog
+    hasUrls: true
+    template: null
+    uriFormat: 'blog-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: 71508290-940f-4d9a-b75d-945b66d5ea31
