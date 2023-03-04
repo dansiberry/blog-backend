@@ -1,4 +1,4 @@
-# Health Partners
+# Blog app Craft CMS API
 
 #### Setup locally
 
