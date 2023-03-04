@@ -1,4 +1,6 @@
 /.env
 /.idea
 /vendor
+/web/uploads
+/data
 .DS_Store
