@@ -1,0 +1,30 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+    - run: docker stop blog_db || true && docker rm blog_db || true
+    - run: docker stop blog_craft || true && docker rm blog_craft || true
+    - run: rm -rf /var/www/blog-api
+    - run: mkdir /var/www/blog-api
+    - run: cp -r /var/www/runners/actions-runner-itsallfoodthings-api/_work/itsallfoodthings-api/itsallfoodthings-api/. /var/www/itsallfoodthings-api
+    - run: cp /var/www/envs/itsallfoodthings-api.env /var/www/itsallfoodthings-api/.env
+    - run: docker-compose -f /var/www/itsallfoodthings-api/docker-compose.yml up -d

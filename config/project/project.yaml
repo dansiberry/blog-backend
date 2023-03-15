@@ -1,4 +1,4 @@
-dateModified: 1677523258
+dateModified: 1678871250
 email:
   fromEmail: dansiberry1@gmail.com
   fromName: blog
@@ -33,7 +33,10 @@ fs:
 meta:
   __names__:
     1fb909e0-83b7-468b-b3f9-d9794542966b: Default # Default
+    2f066d35-e638-4e58-bbf5-ddb5f88e501e: 'Article Author' # Article Author
     3acf0331-87ac-459c-ade7-f57ea32eaabf: fit500 # fit500
+    8b059031-6333-43ef-b5b7-74f9eb63fb3f: Fit200 # Fit200
+    9a6de6d3-e9ba-46fd-869d-11c93940b484: Authors # Authors
     9d803659-6b3d-41a7-89b4-1f6d3d2bfd42: 'Article Category' # Article Category
     9f2ecfd8-8ec6-4b17-916f-7746fe5f61bd: Image # Image
     29f2de60-ede3-40d8-b625-a2d992c8f009: blog # blog
@@ -42,6 +45,7 @@ meta:
     3096e77f-85e7-44e9-abd8-02815e0feba3: blog # blog
     7873a506-41e3-436a-8257-ef7479df6fab: 'Blog Categories' # Blog Categories
     a1ebdd44-f323-4c2e-8199-afe68c836ad3: Articles # Articles
+    d05a600c-4d0e-4a79-bc9b-ac9b761f6b7b: Default # Default
     f2bc3319-c40e-4f85-8b66-e1e5ea75b7a6: 'Text Content' # Text Content
     f7d108ef-d93f-46c6-86fa-5ab4f17fad23: Common # Common
 plugins:

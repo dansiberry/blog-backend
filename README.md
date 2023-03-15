@@ -12,3 +12,5 @@ docker-compose up
 The backend endpoint will be available locally as localhost:8080. 
 For example, to view all articles via API , visit : http://localhost:8080/api/articles.json
 To access the control panel, visit: http://localhost:8080/admin
+
+The configuration for the API endpoints can be found at config/element-api.php
