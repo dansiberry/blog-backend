@@ -70,7 +70,9 @@ return [
                         'imageSmallUrl' => $entry->image->one()->getUrl('fit500'),
                         'categories' => $categories,
                         'fullText' => $entry->textContent,
-                        'createdAt' => $entry->postDate->format('c')
+                        'createdAt' => $entry->postDate->format('c'),
+                        'authorName' => $entry->articleAuthor->one()->title,
+                        'authorImage' => $entry->articleAuthor->one()->image->one()->getUrl('fit200')
                     ];
                 },
             ];
